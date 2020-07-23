@@ -1,0 +1,14 @@
+{
+	"clientKey": "clientKey1234",
+	"clientSecret": "clientSecret1234",
+	"projectServiceId": "projectServiceId1234",
+	"bucketName": "my-bucket",
+	"bucketRegion": "us-east-1",
+	"localPath": ".\Samples",
+	"inputFile": "sample.mp4",
+	"outputFile_json": "java-sample.json",
+	"outputFile_ttml": "java-sample.xml",
+	"outputFile_text": "java-sample.txt",
+	"aws_access_key_id": "XXX",
+	"aws_secret_access_key": "XXXXXXXXXXXX"
+}

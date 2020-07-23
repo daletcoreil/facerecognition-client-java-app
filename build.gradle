@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'com.dalet.mediator'
+version '1.0.0'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+	compile ('com.dalet.mediator:facerecognition-client:CORTEX_CLIENT_VERSION')
+    compile ('com.amazonaws:aws-java-sdk-s3:1.11.337')
+    compile ('org.json:json:20180130')
+}
+
+task execute(type:JavaExec) {
+   main = 'FaceRecClientSampleApp'
+   classpath = sourceSets.main.runtimeClasspath
+}
